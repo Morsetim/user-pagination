@@ -17,7 +17,6 @@ const App = () => {
         setUserData(response.data);
         // eslint-disable-next-line
     }, []);
-    // eslint-disable-next-line
 
 
     const lastPostIndex = currentPage * postsPerPage;
